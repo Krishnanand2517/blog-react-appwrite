@@ -9,7 +9,7 @@ const Input = forwardRef(function Input({
     const id = useId();
 
     return (
-        <div className="w-full">
+        <div className="w-full text-left">
             {label && (
                 <label
                     className="inline-block mb-1 pl-1"

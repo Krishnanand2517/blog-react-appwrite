@@ -1,6 +1,8 @@
-const Logo = ({ width = '100px' }) => {
+const Logo = ({ width = '40px' }) => {
     return (
-        <div>Logo</div>
+        <div>
+            <img src="/blog.svg" alt="Logo" width={width} />
+        </div>
     );
 };
 
